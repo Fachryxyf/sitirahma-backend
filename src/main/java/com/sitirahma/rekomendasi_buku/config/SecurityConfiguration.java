@@ -26,13 +26,19 @@ public class SecurityConfiguration {
                 http
                                 .csrf(AbstractHttpConfigurer::disable)
                                 .cors(withDefaults())
-                                .authorizeHttpRequests(req -> req.requestMatchers("/api/v1/auth/**")
-                                                .permitAll()
-                                                .anyRequest()
-                                                .authenticated())
+                                .authorizeHttpRequests(auth -> auth
+                                                // Izinkan akses publik ke semua endpoint di bawah /auth
+                                                .requestMatchers("/api/v1/auth/**").permitAll()
+
+                                                // PERBAIKAN UTAMA: Menggunakan hasAnyAuthority yang lebih eksplisit
+                                                // Izinkan akses jika pengguna memiliki peran "ROLE_ADMIN" ATAU
+                                                // "ROLE_USER"
+                                                .requestMatchers("/api/v1/buku/**")
+                                                .hasAnyAuthority("ROLE_ADMIN", "ROLE_USER")
+
+                                                // Untuk semua request lainnya, wajibkan autentikasi
+                                                .anyRequest().authenticated())
                                 .sessionManagement(session -> session.sessionCreationPolicy(STATELESS))
-                                // PERBAIKAN UTAMA: Secara eksplisit memberitahu filter chain untuk
-                                // menggunakan AuthenticationProvider yang telah kita konfigurasi dengan benar.
                                 .authenticationProvider(authenticationProvider)
                                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);
 

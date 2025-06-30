@@ -3,6 +3,8 @@ package com.sitirahma.rekomendasi_buku.service;
 import com.sitirahma.rekomendasi_buku.dto.AuthenticationResponse;
 import com.sitirahma.rekomendasi_buku.dto.LoginRequest;
 import com.sitirahma.rekomendasi_buku.dto.RegisterRequest;
+import com.sitirahma.rekomendasi_buku.dto.ResetPasswordRequest;
+import com.sitirahma.rekomendasi_buku.dto.VerifyUserRequest;
 import com.sitirahma.rekomendasi_buku.model.Pengguna;
 import com.sitirahma.rekomendasi_buku.model.Peran;
 import com.sitirahma.rekomendasi_buku.repository.PenggunaRepository;
@@ -50,5 +52,33 @@ public class AuthenticationService {
         // Buat dan kembalikan token
         var jwtToken = jwtService.generateToken(pengguna);
         return AuthenticationResponse.builder().token(jwtToken).build();
+    }
+
+    public boolean verifyUser(VerifyUserRequest request) {
+        // Cari pengguna berdasarkan username, jika tidak ada, lempar error
+        Pengguna pengguna = penggunaRepository.findByUsername(request.getUsername())
+                .orElseThrow(() -> new RuntimeException("Pengguna tidak ditemukan."));
+
+        // Cek apakah email yang dimasukkan cocok dengan email di database
+        return pengguna.getEmail().equalsIgnoreCase(request.getEmail());
+    }
+
+    public String resetPassword(ResetPasswordRequest request) {
+        // Cari pengguna berdasarkan username, jika tidak ada, lempar error
+        Pengguna pengguna = penggunaRepository.findByUsername(request.getUsername())
+                .orElseThrow(() -> new RuntimeException("Pengguna tidak ditemukan."));
+
+        // Lakukan verifikasi email sekali lagi untuk keamanan
+        if (!pengguna.getEmail().equalsIgnoreCase(request.getEmail())) {
+            throw new IllegalStateException("Kombinasi username dan email tidak cocok.");
+        }
+
+        // Enkripsi dan set password baru
+        pengguna.setPassword(passwordEncoder.encode(request.getNewPassword()));
+
+        // Simpan perubahan ke database
+        penggunaRepository.save(pengguna);
+
+        return "Password berhasil diubah. Silakan login dengan password baru Anda.";
     }
 }

@@ -3,6 +3,8 @@ package com.sitirahma.rekomendasi_buku.controller;
 import com.sitirahma.rekomendasi_buku.dto.AuthenticationResponse;
 import com.sitirahma.rekomendasi_buku.dto.LoginRequest;
 import com.sitirahma.rekomendasi_buku.dto.RegisterRequest;
+import com.sitirahma.rekomendasi_buku.dto.ResetPasswordRequest;
+import com.sitirahma.rekomendasi_buku.dto.VerifyUserRequest;
 import com.sitirahma.rekomendasi_buku.service.AuthenticationService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
@@ -28,5 +30,17 @@ public class AuthenticationController {
     // PERUBAHAN: Tipe kembalian diubah menjadi AuthenticationResponse
     public ResponseEntity<AuthenticationResponse> login(@RequestBody LoginRequest request) {
         return ResponseEntity.ok(authenticationService.login(request));
+    }
+
+    @PostMapping("/verify-user")
+    public ResponseEntity<Boolean> verifyUser(@RequestBody VerifyUserRequest request) {
+        boolean isValid = authenticationService.verifyUser(request);
+        return ResponseEntity.ok(isValid);
+    }
+
+    @PostMapping("/reset-password")
+    public ResponseEntity<String> resetPassword(@RequestBody ResetPasswordRequest request) {
+        String message = authenticationService.resetPassword(request);
+        return ResponseEntity.ok(message);
     }
 }
