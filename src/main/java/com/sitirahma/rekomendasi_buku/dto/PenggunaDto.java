@@ -1,10 +1,13 @@
 package com.sitirahma.rekomendasi_buku.dto;
 
+import lombok.Builder;
 import lombok.Data;
 
 @Data
-public class ResetPasswordRequest {
+@Builder
+public class PenggunaDto {
+    private Long id;
     private String namaLengkap;
     private String email;
-    private String newPassword;
+    private String role;
 }

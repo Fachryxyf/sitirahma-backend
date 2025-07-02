@@ -21,11 +21,10 @@ public class ApplicationConfig {
 
     @Bean
     public UserDetailsService userDetailsService() {
-        // Ini memberitahu Spring Security cara mengambil detail pengguna berdasarkan
-        // username
-        // dari repository kita.
-        return username -> penggunaRepository.findByUsername(username)
-                .orElseThrow(() -> new UsernameNotFoundException("User not found"));
+        // Spring Security akan menggunakan email yang dikirim dari form login
+        // untuk mencari pengguna di database melalui metode findByEmail.
+        return username -> penggunaRepository.findByEmail(username)
+                .orElseThrow(() -> new UsernameNotFoundException("Pengguna tidak ditemukan dengan email: " + username));
     }
 
     @Bean
@@ -38,7 +37,6 @@ public class ApplicationConfig {
 
     @Bean
     public PasswordEncoder passwordEncoder() {
-        // Ini adalah algoritma enkripsi password yang akan kita gunakan
         return new BCryptPasswordEncoder();
     }
 

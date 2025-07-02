@@ -25,16 +25,14 @@ public class RekomendasiBukuApplication {
 		SpringApplication.run(RekomendasiBukuApplication.class, args);
 	}
 
-	// --- BEAN UNTUK SEEDING DATA ---
 	@Bean
 	CommandLineRunner run(BukuRepository bukuRepository, PenggunaRepository penggunaRepository,
 			PasswordEncoder passwordEncoder) {
 		return args -> {
-			// 1. Seed Akun Administrator (tidak berubah)
-			if (penggunaRepository.findByUsername("admin").isEmpty()) {
+			// 1. Seed Akun Administrator
+			if (penggunaRepository.findByEmail("admin@sekolah.id").isEmpty()) {
 				Pengguna admin = Pengguna.builder()
 						.namaLengkap("Administrator")
-						.username("admin")
 						.email("admin@sekolah.id")
 						.password(passwordEncoder.encode("password123"))
 						.role(Peran.ROLE_ADMIN)
@@ -50,9 +48,10 @@ public class RekomendasiBukuApplication {
 					List<Buku> booksToSave = mapper.readValue(inputStream, new TypeReference<>() {
 					});
 
-					// PERBAIKAN: Logika disesuaikan dengan nama field baru
 					List<Buku> processedBooks = booksToSave.stream().map(book -> {
+						// Ambil daftar kata kunci dari field sementara (keywordsFromJson)
 						if (book.getKeywordsFromJson() != null && !book.getKeywordsFromJson().isEmpty()) {
+							// Gabungkan menjadi String dan simpan di field 'keywords' yang asli
 							book.setKeywords(String.join(",", book.getKeywordsFromJson()));
 						}
 						return book;
@@ -66,5 +65,5 @@ public class RekomendasiBukuApplication {
 				}
 			}
 		};
-	};
+	}
 }

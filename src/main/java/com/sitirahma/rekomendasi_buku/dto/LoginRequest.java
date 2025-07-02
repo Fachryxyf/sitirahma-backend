@@ -1,15 +1,9 @@
 package com.sitirahma.rekomendasi_buku.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 @Data
-@Builder
-@AllArgsConstructor
-@NoArgsConstructor
 public class LoginRequest {
-    private String username;
+    private String email; // Diubah dari username menjadi email
     private String password;
 }

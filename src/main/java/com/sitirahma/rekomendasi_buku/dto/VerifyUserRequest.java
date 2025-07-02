@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class VerifyUserRequest {
-    private String username;
+    private String namaLengkap;
     private String email;
 }
