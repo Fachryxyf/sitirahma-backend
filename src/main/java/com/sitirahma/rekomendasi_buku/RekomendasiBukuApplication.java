@@ -1,3 +1,5 @@
+// src/main/java/com/sitirahma/rekomendasi_buku/RekomendasiBukuApplication.java
+
 package com.sitirahma.rekomendasi_buku;
 
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -16,7 +18,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 import java.io.InputStream;
 import java.util.List;
-import java.util.stream.Collectors;
 
 @SpringBootApplication
 public class RekomendasiBukuApplication {
@@ -45,20 +46,14 @@ public class RekomendasiBukuApplication {
 			if (bukuRepository.count() == 0) {
 				ObjectMapper mapper = new ObjectMapper();
 				try (InputStream inputStream = new ClassPathResource("books.json").getInputStream()) {
-					List<Buku> booksToSave = mapper.readValue(inputStream, new TypeReference<>() {
+
+					// ObjectMapper akan otomatis memanggil setKeywordsAsList di model Buku.
+					List<Buku> booksToSeed = mapper.readValue(inputStream, new TypeReference<>() {
 					});
 
-					List<Buku> processedBooks = booksToSave.stream().map(book -> {
-						// Ambil daftar kata kunci dari field sementara (keywordsFromJson)
-						if (book.getKeywordsFromJson() != null && !book.getKeywordsFromJson().isEmpty()) {
-							// Gabungkan menjadi String dan simpan di field 'keywords' yang asli
-							book.setKeywords(String.join(",", book.getKeywordsFromJson()));
-						}
-						return book;
-					}).collect(Collectors.toList());
+					bukuRepository.saveAll(booksToSeed);
+					System.out.println(">>> " + booksToSeed.size() + " data buku berhasil di-seed ke database!");
 
-					bukuRepository.saveAll(processedBooks);
-					System.out.println(">>> " + processedBooks.size() + " data buku berhasil di-seed ke database!");
 				} catch (Exception e) {
 					System.err.println("!!! Gagal membaca atau menyimpan data buku dari JSON: " + e.getMessage());
 					e.printStackTrace();

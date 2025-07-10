@@ -2,11 +2,12 @@ package com.sitirahma.rekomendasi_buku.dto;
 
 import lombok.Builder;
 import lombok.Data;
+import java.util.List;
+import java.util.Map;
 
 @Data
 @Builder
 public class BukuAdminDto {
-    // Mewarisi semua field dari BukuDto
     private String idBuku;
     private String judul;
     private String penulis;
@@ -16,7 +17,7 @@ public class BukuAdminDto {
     private Integer jumlahHalaman;
     private String coverUrl;
     private String sinopsis;
-
-    // Field tambahan khusus Admin
     private double score;
+    private Map<String, List<String>> reportTerms;
+    private Map<String, Double> scoreDetails;
 }

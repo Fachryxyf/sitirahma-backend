@@ -8,7 +8,7 @@
     "tahunTerbit": 2017,
     "jumlahHalaman": 298,
     "coverUrl": "https://picsum.photos/seed/B001/400/600",
-    "keywords_list": [
+    "keywords": [
       "fisika",
       "biologi",
       "kimia",
@@ -25,7 +25,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 445,
     "coverUrl": "https://picsum.photos/seed/B002/400/600",
-    "keywords_list": [
+    "keywords": [
       "geometri",
       "aritmetika",
       "statistika",
@@ -42,7 +42,7 @@
     "tahunTerbit": 2021,
     "jumlahHalaman": 486,
     "coverUrl": "https://picsum.photos/seed/B003/400/600",
-    "keywords_list": [
+    "keywords": [
       "puisi",
       "sastra",
       "linguistik",
@@ -59,7 +59,7 @@
     "tahunTerbit": 2025,
     "jumlahHalaman": 283,
     "coverUrl": "https://picsum.photos/seed/B004/400/600",
-    "keywords_list": [
+    "keywords": [
       "anatomi",
       "farmasi",
       "kesehatan masyarakat",
@@ -76,7 +76,7 @@
     "tahunTerbit": 2016,
     "jumlahHalaman": 465,
     "coverUrl": "https://picsum.photos/seed/B005/400/600",
-    "keywords_list": [
+    "keywords": [
       "geometri",
       "statistika",
       "kalkulus",
@@ -93,7 +93,7 @@
     "tahunTerbit": 2019,
     "jumlahHalaman": 336,
     "coverUrl": "https://picsum.photos/seed/B006/400/600",
-    "keywords_list": [
+    "keywords": [
       "aritmetika",
       "geometri",
       "aljabar",
@@ -110,7 +110,7 @@
     "tahunTerbit": 2020,
     "jumlahHalaman": 125,
     "coverUrl": "https://picsum.photos/seed/B007/400/600",
-    "keywords_list": [
+    "keywords": [
       "sejarah",
       "politik",
       "ekonomi",
@@ -127,7 +127,7 @@
     "tahunTerbit": 2011,
     "jumlahHalaman": 148,
     "coverUrl": "https://picsum.photos/seed/B008/400/600",
-    "keywords_list": [
+    "keywords": [
       "politik",
       "geografi",
       "sosiologi",
@@ -144,7 +144,7 @@
     "tahunTerbit": 2021,
     "jumlahHalaman": 453,
     "coverUrl": "https://picsum.photos/seed/B009/400/600",
-    "keywords_list": [
+    "keywords": [
       "sastra",
       "linguistik",
       "tata bahasa",
@@ -161,7 +161,7 @@
     "tahunTerbit": 2018,
     "jumlahHalaman": 399,
     "coverUrl": "https://picsum.photos/seed/B010/400/600",
-    "keywords_list": [
+    "keywords": [
       "fisika",
       "astronomi",
       "biologi",
@@ -178,7 +178,7 @@
     "tahunTerbit": 2015,
     "jumlahHalaman": 427,
     "coverUrl": "https://picsum.photos/seed/B011/400/600",
-    "keywords_list": [
+    "keywords": [
       "geografi",
       "sosiologi",
       "ekonomi",
@@ -195,7 +195,7 @@
     "tahunTerbit": 2015,
     "jumlahHalaman": 431,
     "coverUrl": "https://picsum.photos/seed/B012/400/600",
-    "keywords_list": [
+    "keywords": [
       "statistika",
       "aritmetika",
       "kalkulus",
@@ -212,7 +212,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 349,
     "coverUrl": "https://picsum.photos/seed/B013/400/600",
-    "keywords_list": [
+    "keywords": [
       "komputer",
       "internet",
       "robotika",
@@ -229,7 +229,7 @@
     "tahunTerbit": 2024,
     "jumlahHalaman": 359,
     "coverUrl": "https://picsum.photos/seed/B014/400/600",
-    "keywords_list": [
+    "keywords": [
       "aritmetika",
       "kalkulus",
       "aljabar",
@@ -246,7 +246,7 @@
     "tahunTerbit": 2012,
     "jumlahHalaman": 318,
     "coverUrl": "https://picsum.photos/seed/B015/400/600",
-    "keywords_list": [
+    "keywords": [
       "geografi",
       "politik",
       "sejarah",
@@ -263,7 +263,7 @@
     "tahunTerbit": 2022,
     "jumlahHalaman": 207,
     "coverUrl": "https://picsum.photos/seed/B016/400/600",
-    "keywords_list": [
+    "keywords": [
       "kalkulus",
       "statistika",
       "geometri",
@@ -280,7 +280,7 @@
     "tahunTerbit": 2018,
     "jumlahHalaman": 440,
     "coverUrl": "https://picsum.photos/seed/B017/400/600",
-    "keywords_list": [
+    "keywords": [
       "pemrograman",
       "komputer",
       "robotika",
@@ -297,7 +297,7 @@
     "tahunTerbit": 2020,
     "jumlahHalaman": 363,
     "coverUrl": "https://picsum.photos/seed/B018/400/600",
-    "keywords_list": [
+    "keywords": [
       "kesehatan masyarakat",
       "penyakit",
       "anatomi",
@@ -314,7 +314,7 @@
     "tahunTerbit": 2019,
     "jumlahHalaman": 292,
     "coverUrl": "https://picsum.photos/seed/B019/400/600",
-    "keywords_list": [
+    "keywords": [
       "sosiologi",
       "geografi",
       "ekonomi",
@@ -331,7 +331,7 @@
     "tahunTerbit": 2023,
     "jumlahHalaman": 198,
     "coverUrl": "https://picsum.photos/seed/B020/400/600",
-    "keywords_list": [
+    "keywords": [
       "linguistik",
       "tata bahasa",
       "sastra",
@@ -348,7 +348,7 @@
     "tahunTerbit": 2012,
     "jumlahHalaman": 183,
     "coverUrl": "https://picsum.photos/seed/B021/400/600",
-    "keywords_list": [
+    "keywords": [
       "sosiologi",
       "politik",
       "ekonomi",
@@ -365,7 +365,7 @@
     "tahunTerbit": 2022,
     "jumlahHalaman": 417,
     "coverUrl": "https://picsum.photos/seed/B022/400/600",
-    "keywords_list": [
+    "keywords": [
       "aljabar",
       "statistika",
       "geometri",
@@ -382,7 +382,7 @@
     "tahunTerbit": 2024,
     "jumlahHalaman": 375,
     "coverUrl": "https://picsum.photos/seed/B023/400/600",
-    "keywords_list": [
+    "keywords": [
       "tata bahasa",
       "linguistik",
       "prosa",
@@ -399,7 +399,7 @@
     "tahunTerbit": 2015,
     "jumlahHalaman": 463,
     "coverUrl": "https://picsum.photos/seed/B024/400/600",
-    "keywords_list": [
+    "keywords": [
       "astronomi",
       "fisika",
       "biologi",
@@ -416,7 +416,7 @@
     "tahunTerbit": 2012,
     "jumlahHalaman": 382,
     "coverUrl": "https://picsum.photos/seed/B025/400/600",
-    "keywords_list": [
+    "keywords": [
       "robotika",
       "pemrograman",
       "komputer",
@@ -433,7 +433,7 @@
     "tahunTerbit": 2019,
     "jumlahHalaman": 413,
     "coverUrl": "https://picsum.photos/seed/B026/400/600",
-    "keywords_list": [
+    "keywords": [
       "gizi",
       "farmasi",
       "anatomi",
@@ -450,7 +450,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 180,
     "coverUrl": "https://picsum.photos/seed/B027/400/600",
-    "keywords_list": [
+    "keywords": [
       "biologi",
       "fisika",
       "astronomi",
@@ -467,7 +467,7 @@
     "tahunTerbit": 2011,
     "jumlahHalaman": 142,
     "coverUrl": "https://picsum.photos/seed/B028/400/600",
-    "keywords_list": [
+    "keywords": [
       "tata bahasa",
       "sastra",
       "linguistik",
@@ -484,7 +484,7 @@
     "tahunTerbit": 2013,
     "jumlahHalaman": 149,
     "coverUrl": "https://picsum.photos/seed/B029/400/600",
-    "keywords_list": [
+    "keywords": [
       "puisi",
       "sastra",
       "linguistik",
@@ -501,7 +501,7 @@
     "tahunTerbit": 2023,
     "jumlahHalaman": 237,
     "coverUrl": "https://picsum.photos/seed/B030/400/600",
-    "keywords_list": [
+    "keywords": [
       "sastra",
       "prosa",
       "linguistik",
@@ -518,7 +518,7 @@
     "tahunTerbit": 2018,
     "jumlahHalaman": 478,
     "coverUrl": "https://picsum.photos/seed/B031/400/600",
-    "keywords_list": [
+    "keywords": [
       "astronomi",
       "fisika",
       "angkasa",
@@ -535,7 +535,7 @@
     "tahunTerbit": 2024,
     "jumlahHalaman": 127,
     "coverUrl": "https://picsum.photos/seed/B032/400/600",
-    "keywords_list": [
+    "keywords": [
       "prosa",
       "sastra",
       "linguistik",
@@ -552,7 +552,7 @@
     "tahunTerbit": 2017,
     "jumlahHalaman": 347,
     "coverUrl": "https://picsum.photos/seed/B033/400/600",
-    "keywords_list": [
+    "keywords": [
       "sastra",
       "puisi",
       "prosa",
@@ -569,7 +569,7 @@
     "tahunTerbit": 2014,
     "jumlahHalaman": 343,
     "coverUrl": "https://picsum.photos/seed/B034/400/600",
-    "keywords_list": [
+    "keywords": [
       "biologi",
       "angkasa",
       "fisika",
@@ -586,7 +586,7 @@
     "tahunTerbit": 2017,
     "jumlahHalaman": 124,
     "coverUrl": "https://picsum.photos/seed/B035/400/600",
-    "keywords_list": [
+    "keywords": [
       "sastra",
       "puisi",
       "tata bahasa",
@@ -603,7 +603,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 379,
     "coverUrl": "https://picsum.photos/seed/B036/400/600",
-    "keywords_list": [
+    "keywords": [
       "angkasa",
       "biologi",
       "fisika",
@@ -620,7 +620,7 @@
     "tahunTerbit": 2020,
     "jumlahHalaman": 350,
     "coverUrl": "https://picsum.photos/seed/B037/400/600",
-    "keywords_list": [
+    "keywords": [
       "prosa",
       "tata bahasa",
       "linguistik",
@@ -637,7 +637,7 @@
     "tahunTerbit": 2012,
     "jumlahHalaman": 305,
     "coverUrl": "https://picsum.photos/seed/B038/400/600",
-    "keywords_list": [
+    "keywords": [
       "sastra",
       "linguistik",
       "tata bahasa",
@@ -654,7 +654,7 @@
     "tahunTerbit": 2020,
     "jumlahHalaman": 392,
     "coverUrl": "https://picsum.photos/seed/B039/400/600",
-    "keywords_list": [
+    "keywords": [
       "kimia",
       "angkasa",
       "fisika",
@@ -671,7 +671,7 @@
     "tahunTerbit": 2012,
     "jumlahHalaman": 260,
     "coverUrl": "https://picsum.photos/seed/B040/400/600",
-    "keywords_list": [
+    "keywords": [
       "aritmetika",
       "aljabar",
       "statistika",
@@ -688,7 +688,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 336,
     "coverUrl": "https://picsum.photos/seed/B041/400/600",
-    "keywords_list": [
+    "keywords": [
       "tata bahasa",
       "linguistik",
       "prosa",
@@ -705,7 +705,7 @@
     "tahunTerbit": 2018,
     "jumlahHalaman": 121,
     "coverUrl": "https://picsum.photos/seed/B042/400/600",
-    "keywords_list": [
+    "keywords": [
       "farmasi",
       "gizi",
       "penyakit",
@@ -722,7 +722,7 @@
     "tahunTerbit": 2014,
     "jumlahHalaman": 199,
     "coverUrl": "https://picsum.photos/seed/B043/400/600",
-    "keywords_list": [
+    "keywords": [
       "tata bahasa",
       "prosa",
       "puisi",
@@ -739,7 +739,7 @@
     "tahunTerbit": 2014,
     "jumlahHalaman": 396,
     "coverUrl": "https://picsum.photos/seed/B044/400/600",
-    "keywords_list": [
+    "keywords": [
       "kesehatan masyarakat",
       "gizi",
       "farmasi",
@@ -756,7 +756,7 @@
     "tahunTerbit": 2025,
     "jumlahHalaman": 138,
     "coverUrl": "https://picsum.photos/seed/B045/400/600",
-    "keywords_list": [
+    "keywords": [
       "kimia",
       "fisika",
       "biologi",
@@ -773,7 +773,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 130,
     "coverUrl": "https://picsum.photos/seed/B046/400/600",
-    "keywords_list": [
+    "keywords": [
       "puisi",
       "tata bahasa",
       "linguistik",
@@ -790,7 +790,7 @@
     "tahunTerbit": 2019,
     "jumlahHalaman": 369,
     "coverUrl": "https://picsum.photos/seed/B047/400/600",
-    "keywords_list": [
+    "keywords": [
       "kalkulus",
       "geometri",
       "aljabar",
@@ -807,7 +807,7 @@
     "tahunTerbit": 2017,
     "jumlahHalaman": 320,
     "coverUrl": "https://picsum.photos/seed/B048/400/600",
-    "keywords_list": [
+    "keywords": [
       "prosa",
       "puisi",
       "sastra",
@@ -824,7 +824,7 @@
     "tahunTerbit": 2011,
     "jumlahHalaman": 172,
     "coverUrl": "https://picsum.photos/seed/B049/400/600",
-    "keywords_list": [
+    "keywords": [
       "ekonomi",
       "sejarah",
       "politik",
@@ -841,7 +841,7 @@
     "tahunTerbit": 2016,
     "jumlahHalaman": 295,
     "coverUrl": "https://picsum.photos/seed/B050/400/600",
-    "keywords_list": [
+    "keywords": [
       "AI",
       "robotika",
       "pemrograman",
@@ -858,7 +858,7 @@
     "tahunTerbit": 2014,
     "jumlahHalaman": 164,
     "coverUrl": "https://picsum.photos/seed/B051/400/600",
-    "keywords_list": [
+    "keywords": [
       "pemrograman",
       "internet",
       "robotika",
@@ -875,7 +875,7 @@
     "tahunTerbit": 2016,
     "jumlahHalaman": 139,
     "coverUrl": "https://picsum.photos/seed/B052/400/600",
-    "keywords_list": [
+    "keywords": [
       "kesehatan masyarakat",
       "penyakit",
       "farmasi",
@@ -892,7 +892,7 @@
     "tahunTerbit": 2013,
     "jumlahHalaman": 295,
     "coverUrl": "https://picsum.photos/seed/B053/400/600",
-    "keywords_list": [
+    "keywords": [
       "kimia",
       "biologi",
       "angkasa",
@@ -909,7 +909,7 @@
     "tahunTerbit": 2016,
     "jumlahHalaman": 401,
     "coverUrl": "https://picsum.photos/seed/B054/400/600",
-    "keywords_list": [
+    "keywords": [
       "fisika",
       "kimia",
       "astronomi",
@@ -926,7 +926,7 @@
     "tahunTerbit": 2011,
     "jumlahHalaman": 368,
     "coverUrl": "https://picsum.photos/seed/B055/400/600",
-    "keywords_list": [
+    "keywords": [
       "puisi",
       "prosa",
       "sastra",
@@ -943,7 +943,7 @@
     "tahunTerbit": 2013,
     "jumlahHalaman": 183,
     "coverUrl": "https://picsum.photos/seed/B056/400/600",
-    "keywords_list": [
+    "keywords": [
       "geografi",
       "sejarah",
       "politik",
@@ -960,7 +960,7 @@
     "tahunTerbit": 2015,
     "jumlahHalaman": 159,
     "coverUrl": "https://picsum.photos/seed/B057/400/600",
-    "keywords_list": [
+    "keywords": [
       "internet",
       "pemrograman",
       "komputer",
@@ -977,7 +977,7 @@
     "tahunTerbit": 2020,
     "jumlahHalaman": 189,
     "coverUrl": "https://picsum.photos/seed/B058/400/600",
-    "keywords_list": [
+    "keywords": [
       "ekonomi",
       "politik",
       "sosiologi",
@@ -994,7 +994,7 @@
     "tahunTerbit": 2015,
     "jumlahHalaman": 438,
     "coverUrl": "https://picsum.photos/seed/B059/400/600",
-    "keywords_list": [
+    "keywords": [
       "penyakit",
       "farmasi",
       "kesehatan masyarakat",
@@ -1011,7 +1011,7 @@
     "tahunTerbit": 2018,
     "jumlahHalaman": 395,
     "coverUrl": "https://picsum.photos/seed/B060/400/600",
-    "keywords_list": [
+    "keywords": [
       "aritmetika",
       "geometri",
       "statistika",
@@ -1028,7 +1028,7 @@
     "tahunTerbit": 2021,
     "jumlahHalaman": 344,
     "coverUrl": "https://picsum.photos/seed/B061/400/600",
-    "keywords_list": [
+    "keywords": [
       "kimia",
       "fisika",
       "biologi",
@@ -1045,7 +1045,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 351,
     "coverUrl": "https://picsum.photos/seed/B062/400/600",
-    "keywords_list": [
+    "keywords": [
       "aljabar",
       "kalkulus",
       "aritmetika",
@@ -1062,7 +1062,7 @@
     "tahunTerbit": 2015,
     "jumlahHalaman": 425,
     "coverUrl": "https://picsum.photos/seed/B063/400/600",
-    "keywords_list": [
+    "keywords": [
       "sejarah",
       "geografi",
       "ekonomi",
@@ -1079,7 +1079,7 @@
     "tahunTerbit": 2021,
     "jumlahHalaman": 246,
     "coverUrl": "https://picsum.photos/seed/B064/400/600",
-    "keywords_list": [
+    "keywords": [
       "penyakit",
       "kesehatan masyarakat",
       "farmasi",
@@ -1096,7 +1096,7 @@
     "tahunTerbit": 2023,
     "jumlahHalaman": 471,
     "coverUrl": "https://picsum.photos/seed/B065/400/600",
-    "keywords_list": [
+    "keywords": [
       "angkasa",
       "biologi",
       "fisika",
@@ -1113,7 +1113,7 @@
     "tahunTerbit": 2022,
     "jumlahHalaman": 228,
     "coverUrl": "https://picsum.photos/seed/B066/400/600",
-    "keywords_list": [
+    "keywords": [
       "kalkulus",
       "aljabar",
       "aritmetika",
@@ -1130,7 +1130,7 @@
     "tahunTerbit": 2014,
     "jumlahHalaman": 235,
     "coverUrl": "https://picsum.photos/seed/B067/400/600",
-    "keywords_list": [
+    "keywords": [
       "angkasa",
       "fisika",
       "kimia",
@@ -1147,7 +1147,7 @@
     "tahunTerbit": 2012,
     "jumlahHalaman": 414,
     "coverUrl": "https://picsum.photos/seed/B068/400/600",
-    "keywords_list": [
+    "keywords": [
       "fisika",
       "biologi",
       "astronomi",
@@ -1164,7 +1164,7 @@
     "tahunTerbit": 2025,
     "jumlahHalaman": 495,
     "coverUrl": "https://picsum.photos/seed/B069/400/600",
-    "keywords_list": [
+    "keywords": [
       "robotika",
       "pemrograman",
       "komputer",
@@ -1181,7 +1181,7 @@
     "tahunTerbit": 2020,
     "jumlahHalaman": 491,
     "coverUrl": "https://picsum.photos/seed/B070/400/600",
-    "keywords_list": [
+    "keywords": [
       "robotika",
       "internet",
       "AI",
@@ -1198,7 +1198,7 @@
     "tahunTerbit": 2014,
     "jumlahHalaman": 293,
     "coverUrl": "https://picsum.photos/seed/B071/400/600",
-    "keywords_list": [
+    "keywords": [
       "pemrograman",
       "komputer",
       "AI",
@@ -1215,7 +1215,7 @@
     "tahunTerbit": 2015,
     "jumlahHalaman": 379,
     "coverUrl": "https://picsum.photos/seed/B072/400/600",
-    "keywords_list": [
+    "keywords": [
       "prosa",
       "puisi",
       "linguistik",
@@ -1232,7 +1232,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 359,
     "coverUrl": "https://picsum.photos/seed/B073/400/600",
-    "keywords_list": [
+    "keywords": [
       "biologi",
       "fisika",
       "astronomi",
@@ -1249,7 +1249,7 @@
     "tahunTerbit": 2018,
     "jumlahHalaman": 152,
     "coverUrl": "https://picsum.photos/seed/B074/400/600",
-    "keywords_list": [
+    "keywords": [
       "sastra",
       "linguistik",
       "puisi",
@@ -1266,7 +1266,7 @@
     "tahunTerbit": 2016,
     "jumlahHalaman": 386,
     "coverUrl": "https://picsum.photos/seed/B075/400/600",
-    "keywords_list": [
+    "keywords": [
       "sejarah",
       "politik",
       "sosiologi",
@@ -1283,7 +1283,7 @@
     "tahunTerbit": 2016,
     "jumlahHalaman": 251,
     "coverUrl": "https://picsum.photos/seed/B076/400/600",
-    "keywords_list": [
+    "keywords": [
       "robotika",
       "komputer",
       "internet",
@@ -1300,7 +1300,7 @@
     "tahunTerbit": 2014,
     "jumlahHalaman": 201,
     "coverUrl": "https://picsum.photos/seed/B077/400/600",
-    "keywords_list": [
+    "keywords": [
       "statistika",
       "aritmetika",
       "aljabar",
@@ -1317,7 +1317,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 465,
     "coverUrl": "https://picsum.photos/seed/B078/400/600",
-    "keywords_list": [
+    "keywords": [
       "politik",
       "sosiologi",
       "sejarah",
@@ -1334,7 +1334,7 @@
     "tahunTerbit": 2014,
     "jumlahHalaman": 180,
     "coverUrl": "https://picsum.photos/seed/B079/400/600",
-    "keywords_list": [
+    "keywords": [
       "astronomi",
       "biologi",
       "fisika",
@@ -1351,7 +1351,7 @@
     "tahunTerbit": 2023,
     "jumlahHalaman": 239,
     "coverUrl": "https://picsum.photos/seed/B080/400/600",
-    "keywords_list": [
+    "keywords": [
       "prosa",
       "tata bahasa",
       "sastra",
@@ -1368,7 +1368,7 @@
     "tahunTerbit": 2018,
     "jumlahHalaman": 481,
     "coverUrl": "https://picsum.photos/seed/B081/400/600",
-    "keywords_list": [
+    "keywords": [
       "sosiologi",
       "geografi",
       "ekonomi",
@@ -1385,7 +1385,7 @@
     "tahunTerbit": 2011,
     "jumlahHalaman": 260,
     "coverUrl": "https://picsum.photos/seed/B082/400/600",
-    "keywords_list": [
+    "keywords": [
       "AI",
       "pemrograman",
       "robotika",
@@ -1402,7 +1402,7 @@
     "tahunTerbit": 2016,
     "jumlahHalaman": 379,
     "coverUrl": "https://picsum.photos/seed/B083/400/600",
-    "keywords_list": [
+    "keywords": [
       "biologi",
       "kimia",
       "astronomi",
@@ -1419,7 +1419,7 @@
     "tahunTerbit": 2014,
     "jumlahHalaman": 392,
     "coverUrl": "https://picsum.photos/seed/B084/400/600",
-    "keywords_list": [
+    "keywords": [
       "politik",
       "sosiologi",
       "ekonomi",
@@ -1436,7 +1436,7 @@
     "tahunTerbit": 2021,
     "jumlahHalaman": 279,
     "coverUrl": "https://picsum.photos/seed/B085/400/600",
-    "keywords_list": [
+    "keywords": [
       "politik",
       "geografi",
       "ekonomi",
@@ -1453,7 +1453,7 @@
     "tahunTerbit": 2012,
     "jumlahHalaman": 298,
     "coverUrl": "https://picsum.photos/seed/B086/400/600",
-    "keywords_list": [
+    "keywords": [
       "statistika",
       "geometri",
       "aljabar",
@@ -1470,7 +1470,7 @@
     "tahunTerbit": 2011,
     "jumlahHalaman": 497,
     "coverUrl": "https://picsum.photos/seed/B087/400/600",
-    "keywords_list": [
+    "keywords": [
       "sosiologi",
       "sejarah",
       "politik",
@@ -1487,7 +1487,7 @@
     "tahunTerbit": 2012,
     "jumlahHalaman": 339,
     "coverUrl": "https://picsum.photos/seed/B088/400/600",
-    "keywords_list": [
+    "keywords": [
       "tata bahasa",
       "puisi",
       "prosa",
@@ -1504,7 +1504,7 @@
     "tahunTerbit": 2016,
     "jumlahHalaman": 278,
     "coverUrl": "https://picsum.photos/seed/B089/400/600",
-    "keywords_list": [
+    "keywords": [
       "sastra",
       "tata bahasa",
       "prosa",
@@ -1521,7 +1521,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 424,
     "coverUrl": "https://picsum.photos/seed/B090/400/600",
-    "keywords_list": [
+    "keywords": [
       "penyakit",
       "kesehatan masyarakat",
       "farmasi",
@@ -1538,7 +1538,7 @@
     "tahunTerbit": 2014,
     "jumlahHalaman": 232,
     "coverUrl": "https://picsum.photos/seed/B091/400/600",
-    "keywords_list": [
+    "keywords": [
       "astronomi",
       "kimia",
       "biologi",
@@ -1555,7 +1555,7 @@
     "tahunTerbit": 2020,
     "jumlahHalaman": 297,
     "coverUrl": "https://picsum.photos/seed/B092/400/600",
-    "keywords_list": [
+    "keywords": [
       "astronomi",
       "kimia",
       "biologi",
@@ -1572,7 +1572,7 @@
     "tahunTerbit": 2018,
     "jumlahHalaman": 389,
     "coverUrl": "https://picsum.photos/seed/B093/400/600",
-    "keywords_list": [
+    "keywords": [
       "statistika",
       "kalkulus",
       "aljabar",
@@ -1589,7 +1589,7 @@
     "tahunTerbit": 2010,
     "jumlahHalaman": 328,
     "coverUrl": "https://picsum.photos/seed/B094/400/600",
-    "keywords_list": [
+    "keywords": [
       "kalkulus",
       "aritmetika",
       "statistika",
@@ -1606,7 +1606,7 @@
     "tahunTerbit": 2025,
     "jumlahHalaman": 242,
     "coverUrl": "https://picsum.photos/seed/B095/400/600",
-    "keywords_list": [
+    "keywords": [
       "pemrograman",
       "robotika",
       "AI",
@@ -1623,7 +1623,7 @@
     "tahunTerbit": 2023,
     "jumlahHalaman": 178,
     "coverUrl": "https://picsum.photos/seed/B096/400/600",
-    "keywords_list": [
+    "keywords": [
       "kimia",
       "fisika",
       "angkasa",
@@ -1640,7 +1640,7 @@
     "tahunTerbit": 2021,
     "jumlahHalaman": 138,
     "coverUrl": "https://picsum.photos/seed/B097/400/600",
-    "keywords_list": [
+    "keywords": [
       "aljabar",
       "statistika",
       "kalkulus",
@@ -1657,7 +1657,7 @@
     "tahunTerbit": 2012,
     "jumlahHalaman": 482,
     "coverUrl": "https://picsum.photos/seed/B098/400/600",
-    "keywords_list": [
+    "keywords": [
       "linguistik",
       "prosa",
       "puisi",
@@ -1674,7 +1674,7 @@
     "tahunTerbit": 2012,
     "jumlahHalaman": 337,
     "coverUrl": "https://picsum.photos/seed/B099/400/600",
-    "keywords_list": [
+    "keywords": [
       "sejarah",
       "ekonomi",
       "geografi",
@@ -1691,7 +1691,7 @@
     "tahunTerbit": 2018,
     "jumlahHalaman": 390,
     "coverUrl": "https://picsum.photos/seed/B100/400/600",
-    "keywords_list": [
+    "keywords": [
       "fisika",
       "biologi",
       "kimia",

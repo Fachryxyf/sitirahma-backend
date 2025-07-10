@@ -1,13 +1,15 @@
 package com.sitirahma.rekomendasi_buku.controller;
 
-import com.sitirahma.rekomendasi_buku.dto.BukuDto;
-import com.sitirahma.rekomendasi_buku.dto.BukuRequest;
+// --- TAMBAHKAN IMPORT INI ---
+import com.sitirahma.rekomendasi_buku.model.Pengguna;
+import com.sitirahma.rekomendasi_buku.service.PenggunaService;
 import com.sitirahma.rekomendasi_buku.dto.PenggunaDto;
 import com.sitirahma.rekomendasi_buku.dto.RegisterRequest;
-import com.sitirahma.rekomendasi_buku.model.Buku;
-import com.sitirahma.rekomendasi_buku.model.Pengguna;
+// --- BATAS PENAMBAHAN ---
+
+import com.sitirahma.rekomendasi_buku.dto.BukuDto;
+import com.sitirahma.rekomendasi_buku.dto.BukuRequest;
 import com.sitirahma.rekomendasi_buku.service.BukuService;
-import com.sitirahma.rekomendasi_buku.service.PenggunaService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -27,31 +29,20 @@ public class AdminController {
     // --- Endpoint Buku ---
     @GetMapping("/buku")
     public ResponseEntity<List<BukuDto>> getAllBooks() {
-        List<Buku> books = bukuService.getAllBuku();
-        List<BukuDto> response = books.stream()
-                .map(book -> BukuDto.builder()
-                        .idBuku(book.getIdBuku())
-                        .judul(book.getJudul())
-                        .penulis(book.getPenulis())
-                        .kategori(book.getKategori())
-                        .penerbit(book.getPenerbit())
-                        .tahunTerbit(book.getTahunTerbit())
-                        .jumlahHalaman(book.getJumlahHalaman())
-                        .coverUrl(book.getCoverUrl())
-                        .sinopsis(book.getSinopsis())
-                        .build())
-                .collect(Collectors.toList());
+        List<BukuDto> response = bukuService.getAllBuku();
         return ResponseEntity.ok(response);
     }
 
     @PostMapping("/buku")
-    public ResponseEntity<Buku> createBook(@RequestBody BukuRequest request) {
-        return new ResponseEntity<>(bukuService.createBuku(request), HttpStatus.CREATED);
+    public ResponseEntity<BukuDto> createBook(@RequestBody BukuRequest request) {
+        BukuDto createdBook = bukuService.createBuku(request);
+        return new ResponseEntity<>(createdBook, HttpStatus.CREATED);
     }
 
     @PutMapping("/buku/{id}")
-    public ResponseEntity<Buku> updateBook(@PathVariable String id, @RequestBody BukuRequest request) {
-        return ResponseEntity.ok(bukuService.updateBuku(id, request));
+    public ResponseEntity<BukuDto> updateBook(@PathVariable String id, @RequestBody BukuRequest request) {
+        BukuDto updatedBook = bukuService.updateBuku(id, request);
+        return ResponseEntity.ok(updatedBook);
     }
 
     @DeleteMapping("/buku/{id}")
@@ -69,6 +60,7 @@ public class AdminController {
     // --- Endpoint Pengguna ---
     @GetMapping("/users")
     public ResponseEntity<List<PenggunaDto>> getAllUsers() {
+        // Kode ini sekarang akan mengenali 'Pengguna' karena sudah di-import
         List<Pengguna> users = penggunaService.getAllUsers();
         List<PenggunaDto> userDtos = users.stream()
                 .map(user -> PenggunaDto.builder()
