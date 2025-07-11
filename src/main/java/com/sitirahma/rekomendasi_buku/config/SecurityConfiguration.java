@@ -57,7 +57,8 @@ public class SecurityConfiguration {
 
                 // Izinkan permintaan dari Vercel dan localhost Anda
                 configuration.setAllowedOrigins(
-                                List.of("https://sitirahma-frontend.vercel.app", "http://localhost:5173"));
+                                List.of("https://sitirahma-frontend.vercel.app", "http://localhost:5173",
+                                                "https://sitirahmawati.xyf.world"));
                 configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
                 configuration.setAllowedHeaders(List.of("*"));
                 configuration.setAllowCredentials(true);
